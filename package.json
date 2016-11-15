@@ -1,0 +1,49 @@
+{
+  "name": "grunt-css-flavor",
+  "version": "1.0.0",
+  "author": "Anthony Fassett",
+  "description": "Create flavors not themes with sass libraries!",
+  "main": "tasks/grunt-css-flavor.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fassetar/grunt-css-flavor.git"
+  },
+  "keywords": [
+    "grunt",    
+    "css",
+    "sass",
+    "compile",
+    "preprocess",
+    "gruntplugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fassetar/grunt-css-flavor/issues"
+  },
+  "homepage": "https://github.com/fassetar/grunt-css-flavor",
+  "dependencies": {
+    "autoprefixer": "^6.3.1",    
+    "chalk": "latest",
+    "css-purge": "latest",
+    "css-parse": "latest",
+    "node-sass": "latest",
+    "maxmin": "latest",
+    "clean-css": "latest",
+    "grunt": "1.0.1",    
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "files": [
+    "tasks"
+  ]
+}
